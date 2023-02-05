@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: jaffle_shop
+    schema: dbt_learn
+    tables:
+      - name: orders
+      - name: customers
+  - name: stripe
+    schema: dbt_learn
+    tables:
+      - name: payment
